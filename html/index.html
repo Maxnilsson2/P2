@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-do list</title>
+    <!-- link to the styleimport  -->
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    
+    <!-- my container/element for the background css styling -->
+<div class="container">
+    <!-- my container for the box element  -->
+    <div class="todo-app">
+        <!-- the text and image element -->
+        <h2>To-do list <img src="/images/check-list-4609829_640.png"></h2>
+        <div class="row">
+            <!-- the searchbox  -->
+            <input type="text" id="input-box" placeholder="Add your text">
+            <!-- the button for adding a task -->
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+        </ul>
+    </div>
+</div>
+<script src="/java/script.js"></script>
 </body>
 </html>
