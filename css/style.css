@@ -94,7 +94,24 @@ ul li.checked{
     color:#555;
     text-decoration: line-through;
 }
-/*  When done with a task the style will be changed to a img that marks with a dot in the img. */
+/*  When done with a task the style will be changed to a img that marks with a checked in the img. */
 ul li.checked::before{
     background-image: url(/images/checked.png);
+}
+/* Move the cross ikon out to the right in the box and added some styling to it */
+ul li span{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color:#555;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+/* added a nice hover function for better visual effect. */
+ul li span:hover{
+  background: #edeef0;
 }
