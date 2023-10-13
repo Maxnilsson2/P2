@@ -67,6 +67,7 @@
     border-radius: 40px;
 
   }
+  /* Style of the list  */
   ul li{
     list-style: none;
     font-size: 17px;
@@ -74,4 +75,26 @@
     user-select: none;
     cursor: pointer;
     position: relative;
+}
+/* Style in the list before its marked as done and also a check img */
+ul li::before{
+content: '';
+position: absolute;
+height: 28px;
+width: 28px;
+border-radius: 50%;
+background-image: url(/images/unchecked.png);
+background-size: cover;
+background-position: center;
+top: 12px;
+left: 8px;
+}
+/* Style in the list after its marked with a line through as done and also a check img */
+ul li.checked{
+    color:#555;
+    text-decoration: line-through;
+}
+/*  When done with a task the style will be changed to a img that marks with a dot in the img. */
+ul li.checked::before{
+    background-image: url(/images/checked.png);
 }
