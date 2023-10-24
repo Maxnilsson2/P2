@@ -35,7 +35,7 @@ This is a simple Shopping-list application built using HTML, CSS, and JavaScript
 ## Screenshots
 
 ![Desktop View](/images/deskopshot.png)
-![Mobile View]()
+![Mobile View](/images/screenshot-2.jpg)
 
 ## Contributing
 
