@@ -1,6 +1,6 @@
 # Shopping-list App
 
-This is a simple Shopping-list application built using HTML, CSS, and JavaScript. It allows users to create, update, and delete tasks, helping them keep track of their tasks and stay organized.
+This is a simple Shopping-list application built using HTML, CSS, and JavaScript. It allows users to create, update, and delete task, helping them keep track of their tasks and stay organized.
 
 ![App Screenshot](/images/deskopshot.png)
 
