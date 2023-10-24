@@ -2,7 +2,7 @@
 
 This is a simple Shopping-list application built using HTML, CSS, and JavaScript. It allows users to create, update, and delete tasks, helping them keep track of their tasks and stay organized.
 
-![App Screenshot](deskopshot.png)
+![App Screenshot](/images/deskopshot.png)
 
 ## Features
 
@@ -34,7 +34,7 @@ This is a simple Shopping-list application built using HTML, CSS, and JavaScript
 
 ## Screenshots
 
-![Desktop View](deskopshot.png)
+![Desktop View](/images/deskopshot.png)
 ![Mobile View]()
 
 ## Contributing
@@ -48,7 +48,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available under the MIT License.
 
 ## Contact
 
